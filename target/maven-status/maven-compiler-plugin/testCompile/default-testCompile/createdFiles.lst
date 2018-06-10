@@ -1,0 +1,4 @@
+com/automation/tests/APIIntegrationTest.class
+com/automation/tests/ErrorCodesTest.class
+com/automation/tests/PostAPITest.class
+com/automation/tests/GetAPITest.class

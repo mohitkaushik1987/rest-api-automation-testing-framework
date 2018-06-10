@@ -1,0 +1,7 @@
+com/automation/data/MultiplicationData.class
+com/automation/data/Users.class
+com/automation/data/AddData.class
+com/automation/util/TestUtil.class
+com/automation/util/Users.class
+com/automation/client/RestClient.class
+com/automation/base/TestBase.class

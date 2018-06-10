@@ -7,3 +7,10 @@ The API tests have been divided into following categories:
 How to run this project?
 
 --> Check the application.properties file and make appropriate changes
+
+## Bug-report ##
+https://mohitkaushik1987.atlassian.net/secure/RapidBoard.jspa?rapidView=1
+
+Login Details:
+abc@gmail.com
+math-service-2018

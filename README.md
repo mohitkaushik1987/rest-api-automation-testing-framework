@@ -1,4 +1,5 @@
-# rest-api-automation-testing-framework
+# math-service: rest-api-automation-testing-framework
+
 REST API - Test Automation Framework. The API tests have been divided into following categories:
 	-API Integration Tests
 	-Error Codes Tests
@@ -19,19 +20,29 @@ REST API - Test Automation Framework. The API tests have been divided into follo
 6. jackson-databind
 
 
-## How to run?
+## How to run the test project?
 
 This test framework is developed to run against math-service local deployemnt (port 8080). Please refer to the application.properties file under config to know more details.
 
- - Run as TestNG
- - Run as Maven Install
+ *-  Run as Maven clean (Build Success)*
+ *-  Run as TestNG (Will show the Status: Tests run, Failures, Skips) - **OR***
+ 
+ *-  Run as Maven install (BUILD FAILURE, because some tests will fail - as expected)*
+ 
  
 ## Bug Report
 
-When the project is run as TestNG, it creates index.html and emailable-report.html under test-output folders. These reports can be referred as-is, or can be configured in Jenkins build to be sent as email.
+At mvn install, the *surefire-plugin* generates the bug reports (emailable-report.hrml and index.html). 
+
+These surefire-reports are generated under *rest-api-automation-testing-framework/target/surefire-reports/* folder. These reports can be referred as-is, or can be configured in Jenkins (CD/CI) build to be sent as email.
+
+The Project can also be run as *run as TestNG*, it creates index.html and emailable-report.html under test-output folders. 
+
+**Please refer the sample bug report from last run, shared on AWS S3 for ready reference.**
 
 
 ## Bug report from last run (Sunday night):
+
 **Emailable report:** https://s3.amazonaws.com/math-service-bug-report/emailable-report.html
 
 **Index.html report (TestNG):** https://s3.amazonaws.com/math-service-bug-report/index.html
@@ -39,7 +50,6 @@ When the project is run as TestNG, it creates index.html and emailable-report.ht
 
 
 
---> Check the application.properties file and make appropriate changes
 
 ## Additional References ##
 https://mohitkaushik1987.atlassian.net/secure/RapidBoard.jspa?rapidView=1

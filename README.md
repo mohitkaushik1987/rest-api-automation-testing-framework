@@ -1,14 +1,19 @@
 # math-service: rest-api-automation-testing-framework
 
-REST API - Test Automation Framework. The API tests have been divided into following categories:
-	-API Integration Tests
-	-Error Codes Tests
-	-Individual endpoint tests:
-		-AdditionServiceTest
-		-MultiplyServiceTest
-		-DivisionServiceTest
-		-MaxMinServicesTest
-		-UnionIntersectServiceTest
+**Service Name: math-service:**
+**REST API - Test Automation Framework. The API tests have been divided into following categories:**
+
+	-1. APIIntegrationTests (Generic Positive testing against individual endpoints-  running against math-		service local deployment on port 8080)
+
+	-2. ErrorCodesTests
+	
+	-3. Individual endpoint tests (detailed testing):
+	
+		-3a. AdditionServiceTest
+		-3b. MultiplyServiceTest
+		-3c. DivisionServiceTest
+		-3d. MaxMinServicesTest
+		-3e. UnionIntersectServiceTest
 
 ## Dependencies (pom.xml)
 
@@ -29,6 +34,7 @@ This test framework is developed to run against *math-service's local deployment
  *Step 2 -  Run as TestNG (Will show the Status: Tests run, Failures, Skips)*
  
  **OR** *-   Run as Maven install (BUILD SUCCESS, Some tests which failed during testing have been commented out in order for a SUCCESSFUL mvn install*
+ 
  
 **Please note that Tests under class *ToBeRetested* have been commented out deliberately. Only for this exercise. **
  

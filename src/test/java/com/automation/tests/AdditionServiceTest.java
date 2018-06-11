@@ -63,15 +63,7 @@ public class AdditionServiceTest extends TestBase {
 		endpoint_max = prop.getProperty("ENDPOINT_MAX");
 		endpoint_min = prop.getProperty("ENDPOINT_MIN");
 
-		// https://reqres.in/api/users
-
-		url = serviceUrl + apiUrl;
-		url_404 = serviceUrl + "/helloThere";
-		url_400 = serviceUrl + "/api/users/32222";
-		url_500 = serviceUrl + "/helloThere";
-		url_401 = serviceUrl + "/helloThere";
-
-		// https://reqres.in/api/users
+		
 
 		url_addition = serviceUrl + endpoint_addition;
 		url_multiply = serviceUrl + endpoint_multiply;

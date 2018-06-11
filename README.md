@@ -24,10 +24,11 @@ REST API - Test Automation Framework. The API tests have been divided into follo
 
 This test framework is developed to run against math-service local deployemnt (port 8080). Please refer to the application.properties file under config to know more details.
 
- *-  Run as Maven clean (Build Success)*
- *-  Run as TestNG (Will show the Status: Tests run, Failures, Skips) - **OR***
+ *Step 1 -  Run as Maven clean (Build Success)*
  
- *-  Run as Maven install (BUILD FAILURE, because some tests will fail - as expected)*
+ *Step 2 -  Run as TestNG (Will show the Status: Tests run, Failures, Skips)*
+ 
+ **OR** *-   Run as Maven install (BUILD FAILURE, because some tests will fail - as expected)*
  
  
 ## Bug Report

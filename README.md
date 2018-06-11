@@ -29,10 +29,16 @@ This test framework is developed to run against math-service local deployemnt (p
 When the project is run as TestNG, it creates index.html and emailable-report.html under test-output folders. These reports can be referred as-is, or can be configured in Jenkins build to be sent as email.
 
 
+## Bug report from last run (Sunday night):
+Emailable report: https://s3.amazonaws.com/math-service-bug-report/emailable-report.html
+Index.html report (TestNG): https://s3.amazonaws.com/math-service-bug-report/index.html
+
+
+
 
 --> Check the application.properties file and make appropriate changes
 
-## Bug-report ##
+## Additional References ##
 https://mohitkaushik1987.atlassian.net/secure/RapidBoard.jspa?rapidView=1
 
 Login Details:

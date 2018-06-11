@@ -51,11 +51,3 @@ The Project can also be run as *run as TestNG*, it creates index.html and emaila
 
 
 
-
-## Additional References ##
-https://mohitkaushik1987.atlassian.net/secure/RapidBoard.jspa?rapidView=1
-
-Login Details:
-abc@gmail.com
-math-service-2018
-

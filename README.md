@@ -1,13 +1,13 @@
 # rest-api-automation-testing-framework
 REST API - Test Automation Framework. The API tests have been divided into following categories:
-	-->API Integration Tests
-	-->Error Codes Tests
-	-->Individual endpoint tests:
-			-->AdditionServiceTest
-			-->MultiplyServiceTest
-			-->DivisionServiceTest
-			-->MaxMinServicesTest
-			-->UnionIntersectServiceTest
+	-API Integration Tests
+	-Error Codes Tests
+	-Individual endpoint tests:
+		-AdditionServiceTest
+		-MultiplyServiceTest
+		-DivisionServiceTest
+		-MaxMinServicesTest
+		-UnionIntersectServiceTest
 
 ## Dependencies (pom.xml)
 
@@ -15,6 +15,8 @@ REST API - Test Automation Framework. The API tests have been divided into follo
 2. httpcore
 3. Hamcrest
 4. TestNG
+5. json
+6. jackson-databind
 
 
 ## How to run?
@@ -30,8 +32,9 @@ When the project is run as TestNG, it creates index.html and emailable-report.ht
 
 
 ## Bug report from last run (Sunday night):
-Emailable report: https://s3.amazonaws.com/math-service-bug-report/emailable-report.html
-Index.html report (TestNG): https://s3.amazonaws.com/math-service-bug-report/index.html
+**Emailable report:** https://s3.amazonaws.com/math-service-bug-report/emailable-report.html
+
+**Index.html report (TestNG):** https://s3.amazonaws.com/math-service-bug-report/index.html
 
 
 

@@ -1,4 +1,9 @@
 com/automation/tests/APIIntegrationTest.class
-com/automation/tests/ErrorCodesTest.class
+com/automation/tests/MultiplyServiceTest.class
+com/automation/tests/UnionIntersectServiceTest.class
+com/automation/tests/AdditionServiceTest.class
 com/automation/tests/PostAPITest.class
 com/automation/tests/GetAPITest.class
+com/automation/tests/DivisionServiceTest.class
+com/automation/tests/ErrorCodesTest.class
+com/automation/tests/MaxMinServicesTest.class

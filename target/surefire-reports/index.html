@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-passed">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">55 methods, 3 failed,   52 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest7_DividendFloat_200Ok">divisionTest7_DividendFloat_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest8_DivisorFloat_200Ok">divisionTest8_DivisorFloat_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest6_DecimalNumbers_200Ok">multiplytest6_DecimalNumbers_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -106,7 +130,32 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="additionTest_400_Bad_Request">additionTest_400_Bad_Request</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.AdditionServiceTest" hash-for-method="additionTest1_Non_Integers_400BadRequest">additionTest1_Non_Integers_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.AdditionServiceTest" hash-for-method="additionTest2_OneNumberAsNull_400BadRequest">additionTest2_OneNumberAsNull_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.AdditionServiceTest" hash-for-method="additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest">additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.AdditionServiceTest" hash-for-method="additionTest4_NegativeNumbers_200Ok">additionTest4_NegativeNumbers_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.AdditionServiceTest" hash-for-method="additionTest5_OneNegativeOnePositiveNumber_200Ok">additionTest5_OneNegativeOnePositiveNumber_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="additionTest_400_Bad_Request_non_integer">additionTest_400_Bad_Request_non_integer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -116,7 +165,127 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="divisionTest_400_Bad_Request">divisionTest_400_Bad_Request</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest1_NonNumbers_400BadRequest">divisionTest1_NonNumbers_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest2_DivisorNull_400BadRequest">divisionTest2_DivisorNull_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest3_DividendNull_400BadRequest">divisionTest3_DividendNull_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest4_DivisorSpecialCharacter_400BadRequest">divisionTest4_DivisorSpecialCharacter_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest5_BothNegativeNumbers_200Ok">divisionTest5_BothNegativeNumbers_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest6_DividendNegative_200Ok">divisionTest6_DividendNegative_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.DivisionServiceTest" hash-for-method="divisionTest6_DivisorNegative_200Ok">divisionTest6_DivisorNegative_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.APIIntegrationTest" hash-for-method="intersectionTest">intersectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="intersectionTest1_NonIntegersInLeftSet_400BadRequest">intersectionTest1_NonIntegersInLeftSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="intersectionTest2_NonIntegersBothSets_400BadRequest">intersectionTest2_NonIntegersBothSets_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="intersectionTest3_NegativeNumbersInBothSets_200Ok">intersectionTest3_NegativeNumbersInBothSets_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="intersectionTest4_NullsPresentInBothSets_200Ok">intersectionTest4_NullsPresentInBothSets_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.APIIntegrationTest" hash-for-method="maxTest">maxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="maxTest1_NonIntegersInSet_400BadRequest">maxTest1_NonIntegersInSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="maxTest1_NonIntegersInSet_400BadRequest">maxTest1_NonIntegersInSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="maxTest2_SpecialCharactersInSet_400BadRequest">maxTest2_SpecialCharactersInSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="maxTest3_NegativeNumbersInSet_200Ok">maxTest3_NegativeNumbersInSet_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="maxTest4_AllNegativeNumbersInSet_200Ok">maxTest4_AllNegativeNumbersInSet_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="maxTest5_OneNullInSet_200Ok">maxTest5_OneNullInSet_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.APIIntegrationTest" hash-for-method="minTest">minTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="minTest1_NonIntegersInSet_400_BadRequest">minTest1_NonIntegersInSet_400_BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="minTest2_SpecialCharactersInSet_400_BadRequest">minTest2_SpecialCharactersInSet_400_BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="minTest3_NegativeNumbersInSet_200_Ok">minTest3_NegativeNumbersInSet_200_Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="minTest4_AllNegativeNumbersInSet_200_Ok">minTest4_AllNegativeNumbersInSet_200_Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MaxMinServicesTest" hash-for-method="minTest5_OneNullInSet_200_Ok">minTest5_OneNullInSet_200_Ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -126,7 +295,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="multiplytest_400_Bad_Request">multiplytest_400_Bad_Request</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest1_Non_Integers_400BadRequest">multiplytest1_Non_Integers_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest2_OneNumberAsNull_400BadRequest">multiplytest2_OneNumberAsNull_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest">multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest4_BothNegativeNumbers_200Ok">multiplytest4_BothNegativeNumbers_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.MultiplyServiceTest" hash-for-method="multiplytest5_OneNegativeInteger_200Ok">multiplytest5_OneNegativeInteger_200Ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,17 +325,62 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_401_UNAUTHORIZED_division_path">statusCode_401_UNAUTHORIZED_division_path</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_401_UNAUTHORIZED_multiply_path">statusCode_401_UNAUTHORIZED_multiply_path</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_404_NOT_FOUND">statusCode_404_NOT_FOUND</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_405_MethodNotAllowed">statusCode_405_MethodNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_415_UnsupportedMediaType">statusCode_415_UnsupportedMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="statusCode_500_InternalServerError">statusCode_500_InternalServerError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.APIIntegrationTest" hash-for-method="unionTest">unionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest1_NonIntegersInLeftSet_400BadRequest">unionTest1_NonIntegersInLeftSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.ErrorCodesTest" hash-for-method="unionTest1_NonIntegersInLeftSet_400BadRequest">unionTest1_NonIntegersInLeftSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest2_NonIntegersInRightSet_400BadRequest">unionTest2_NonIntegersInRightSet_400BadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest3_NegativeNumbersInLeftSet_200Ok">unionTest3_NegativeNumbersInLeftSet_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest4_NegativeNumbersInBothSets_200Ok">unionTest4_NegativeNumbersInBothSets_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest5_NullsInLeftSet_200Ok">unionTest5_NullsInLeftSet_200Ok</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.automation.tests.UnionIntersectServiceTest" hash-for-method="unionTest6_NullsInBothSets_200Ok">unionTest6_NullsInBothSets_200Ok</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -161,6 +395,248 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.tests.DivisionServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest7_DividendFloat_200Ok">
+                  </a> <!-- divisionTest7_DividendFloat_200Ok -->
+                  <span class="method-name">divisionTest7_DividendFloat_200Ok</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [200] but found [400]
+	at com.automation.tests.DivisionServiceTest.divisionTest7_DividendFloat_200Ok(DivisionServiceTest.java:347)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames<br/> java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.automation.tests.DivisionServiceTest.divisionTest7_DividendFloat_200Ok(DivisionServiceTest.java:347)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:370)<br>org.testng.Assert.assertEquals(Assert.java:380)<br>com.automation.tests.DivisionServiceTest.divisionTest7_DividendFloat_200Ok(DivisionServiceTest.java:347)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest8_DivisorFloat_200Ok">
+                  </a> <!-- divisionTest8_DivisorFloat_200Ok -->
+                  <span class="method-name">divisionTest8_DivisorFloat_200Ok</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [200] but found [400]
+	at com.automation.tests.DivisionServiceTest.divisionTest8_DivisorFloat_200Ok(DivisionServiceTest.java:388)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames<br/> java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.automation.tests.DivisionServiceTest.divisionTest8_DivisorFloat_200Ok(DivisionServiceTest.java:388)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:370)<br>org.testng.Assert.assertEquals(Assert.java:380)<br>com.automation.tests.DivisionServiceTest.divisionTest8_DivisorFloat_200Ok(DivisionServiceTest.java:388)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.tests.MultiplyServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest6_DecimalNumbers_200Ok">
+                  </a> <!-- multiplytest6_DecimalNumbers_200Ok -->
+                  <span class="method-name">multiplytest6_DecimalNumbers_200Ok</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [200] but found [400]
+	at com.automation.tests.MultiplyServiceTest.multiplytest6_DecimalNumbers_200Ok(MultiplyServiceTest.java:277)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames<br/> java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.automation.tests.MultiplyServiceTest.multiplytest6_DecimalNumbers_200Ok(MultiplyServiceTest.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertEquals(Assert.java:123)<br>org.testng.Assert.assertEquals(Assert.java:370)<br>org.testng.Assert.assertEquals(Assert.java:380)<br>com.automation.tests.MultiplyServiceTest.multiplytest6_DecimalNumbers_200Ok(MultiplyServiceTest.java:277)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)<br>org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.AdditionServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionTest1_Non_Integers_400BadRequest">
+                  </a> <!-- additionTest1_Non_Integers_400BadRequest -->
+                  <span class="method-name">additionTest1_Non_Integers_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionTest2_OneNumberAsNull_400BadRequest">
+                  </a> <!-- additionTest2_OneNumberAsNull_400BadRequest -->
+                  <span class="method-name">additionTest2_OneNumberAsNull_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest">
+                  </a> <!-- additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest -->
+                  <span class="method-name">additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionTest4_NegativeNumbers_200Ok">
+                  </a> <!-- additionTest4_NegativeNumbers_200Ok -->
+                  <span class="method-name">additionTest4_NegativeNumbers_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionTest5_OneNegativeOnePositiveNumber_200Ok">
+                  </a> <!-- additionTest5_OneNegativeOnePositiveNumber_200Ok -->
+                  <span class="method-name">additionTest5_OneNegativeOnePositiveNumber_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -183,9 +659,293 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="intersectionTest">
+                  </a> <!-- intersectionTest -->
+                  <span class="method-name">intersectionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest">
+                  </a> <!-- maxTest -->
+                  <span class="method-name">maxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest">
+                  </a> <!-- minTest -->
+                  <span class="method-name">minTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="multiplytest">
                   </a> <!-- multiplytest -->
                   <span class="method-name">multiplytest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest">
+                  </a> <!-- unionTest -->
+                  <span class="method-name">unionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.DivisionServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest1_NonNumbers_400BadRequest">
+                  </a> <!-- divisionTest1_NonNumbers_400BadRequest -->
+                  <span class="method-name">divisionTest1_NonNumbers_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest2_DivisorNull_400BadRequest">
+                  </a> <!-- divisionTest2_DivisorNull_400BadRequest -->
+                  <span class="method-name">divisionTest2_DivisorNull_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest3_DividendNull_400BadRequest">
+                  </a> <!-- divisionTest3_DividendNull_400BadRequest -->
+                  <span class="method-name">divisionTest3_DividendNull_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest4_DivisorSpecialCharacter_400BadRequest">
+                  </a> <!-- divisionTest4_DivisorSpecialCharacter_400BadRequest -->
+                  <span class="method-name">divisionTest4_DivisorSpecialCharacter_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest5_BothNegativeNumbers_200Ok">
+                  </a> <!-- divisionTest5_BothNegativeNumbers_200Ok -->
+                  <span class="method-name">divisionTest5_BothNegativeNumbers_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest6_DividendNegative_200Ok">
+                  </a> <!-- divisionTest6_DividendNegative_200Ok -->
+                  <span class="method-name">divisionTest6_DividendNegative_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionTest6_DivisorNegative_200Ok">
+                  </a> <!-- divisionTest6_DivisorNegative_200Ok -->
+                  <span class="method-name">divisionTest6_DivisorNegative_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.UnionIntersectServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="intersectionTest1_NonIntegersInLeftSet_400BadRequest">
+                  </a> <!-- intersectionTest1_NonIntegersInLeftSet_400BadRequest -->
+                  <span class="method-name">intersectionTest1_NonIntegersInLeftSet_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="intersectionTest2_NonIntegersBothSets_400BadRequest">
+                  </a> <!-- intersectionTest2_NonIntegersBothSets_400BadRequest -->
+                  <span class="method-name">intersectionTest2_NonIntegersBothSets_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="intersectionTest3_NegativeNumbersInBothSets_200Ok">
+                  </a> <!-- intersectionTest3_NegativeNumbersInBothSets_200Ok -->
+                  <span class="method-name">intersectionTest3_NegativeNumbersInBothSets_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="intersectionTest4_NullsPresentInBothSets_200Ok">
+                  </a> <!-- intersectionTest4_NullsPresentInBothSets_200Ok -->
+                  <span class="method-name">intersectionTest4_NullsPresentInBothSets_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest1_NonIntegersInLeftSet_400BadRequest">
+                  </a> <!-- unionTest1_NonIntegersInLeftSet_400BadRequest -->
+                  <span class="method-name">unionTest1_NonIntegersInLeftSet_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest2_NonIntegersInRightSet_400BadRequest">
+                  </a> <!-- unionTest2_NonIntegersInRightSet_400BadRequest -->
+                  <span class="method-name">unionTest2_NonIntegersInRightSet_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest3_NegativeNumbersInLeftSet_200Ok">
+                  </a> <!-- unionTest3_NegativeNumbersInLeftSet_200Ok -->
+                  <span class="method-name">unionTest3_NegativeNumbersInLeftSet_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest4_NegativeNumbersInBothSets_200Ok">
+                  </a> <!-- unionTest4_NegativeNumbersInBothSets_200Ok -->
+                  <span class="method-name">unionTest4_NegativeNumbersInBothSets_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest5_NullsInLeftSet_200Ok">
+                  </a> <!-- unionTest5_NullsInLeftSet_200Ok -->
+                  <span class="method-name">unionTest5_NullsInLeftSet_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest6_NullsInBothSets_200Ok">
+                  </a> <!-- unionTest6_NullsInBothSets_200Ok -->
+                  <span class="method-name">unionTest6_NullsInBothSets_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.MultiplyServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest1_Non_Integers_400BadRequest">
+                  </a> <!-- multiplytest1_Non_Integers_400BadRequest -->
+                  <span class="method-name">multiplytest1_Non_Integers_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest2_OneNumberAsNull_400BadRequest">
+                  </a> <!-- multiplytest2_OneNumberAsNull_400BadRequest -->
+                  <span class="method-name">multiplytest2_OneNumberAsNull_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest">
+                  </a> <!-- multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest -->
+                  <span class="method-name">multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest4_BothNegativeNumbers_200Ok">
+                  </a> <!-- multiplytest4_BothNegativeNumbers_200Ok -->
+                  <span class="method-name">multiplytest4_BothNegativeNumbers_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplytest5_OneNegativeInteger_200Ok">
+                  </a> <!-- multiplytest5_OneNegativeInteger_200Ok -->
+                  <span class="method-name">multiplytest5_OneNegativeInteger_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.tests.MaxMinServicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest1_NonIntegersInSet_400BadRequest">
+                  </a> <!-- maxTest1_NonIntegersInSet_400BadRequest -->
+                  <span class="method-name">maxTest1_NonIntegersInSet_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest2_SpecialCharactersInSet_400BadRequest">
+                  </a> <!-- maxTest2_SpecialCharactersInSet_400BadRequest -->
+                  <span class="method-name">maxTest2_SpecialCharactersInSet_400BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest3_NegativeNumbersInSet_200Ok">
+                  </a> <!-- maxTest3_NegativeNumbersInSet_200Ok -->
+                  <span class="method-name">maxTest3_NegativeNumbersInSet_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest4_AllNegativeNumbersInSet_200Ok">
+                  </a> <!-- maxTest4_AllNegativeNumbersInSet_200Ok -->
+                  <span class="method-name">maxTest4_AllNegativeNumbersInSet_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maxTest5_OneNullInSet_200Ok">
+                  </a> <!-- maxTest5_OneNullInSet_200Ok -->
+                  <span class="method-name">maxTest5_OneNullInSet_200Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest1_NonIntegersInSet_400_BadRequest">
+                  </a> <!-- minTest1_NonIntegersInSet_400_BadRequest -->
+                  <span class="method-name">minTest1_NonIntegersInSet_400_BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest2_SpecialCharactersInSet_400_BadRequest">
+                  </a> <!-- minTest2_SpecialCharactersInSet_400_BadRequest -->
+                  <span class="method-name">minTest2_SpecialCharactersInSet_400_BadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest3_NegativeNumbersInSet_200_Ok">
+                  </a> <!-- minTest3_NegativeNumbersInSet_200_Ok -->
+                  <span class="method-name">minTest3_NegativeNumbersInSet_200_Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest4_AllNegativeNumbersInSet_200_Ok">
+                  </a> <!-- minTest4_AllNegativeNumbersInSet_200_Ok -->
+                  <span class="method-name">minTest4_AllNegativeNumbersInSet_200_Ok</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minTest5_OneNullInSet_200_Ok">
+                  </a> <!-- minTest5_OneNullInSet_200_Ok -->
+                  <span class="method-name">minTest5_OneNullInSet_200_Ok</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,23 +958,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="additionTest_400_Bad_Request">
-                  </a> <!-- additionTest_400_Bad_Request -->
-                  <span class="method-name">additionTest_400_Bad_Request</span>
+                  <a name="additionTest_400_Bad_Request_non_integer">
+                  </a> <!-- additionTest_400_Bad_Request_non_integer -->
+                  <span class="method-name">additionTest_400_Bad_Request_non_integer</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="divisionTest_400_Bad_Request">
-                  </a> <!-- divisionTest_400_Bad_Request -->
-                  <span class="method-name">divisionTest_400_Bad_Request</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="multiplytest_400_Bad_Request">
-                  </a> <!-- multiplytest_400_Bad_Request -->
-                  <span class="method-name">multiplytest_400_Bad_Request</span>
+                  <a name="maxTest1_NonIntegersInSet_400BadRequest">
+                  </a> <!-- maxTest1_NonIntegersInSet_400BadRequest -->
+                  <span class="method-name">maxTest1_NonIntegersInSet_400BadRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -226,23 +979,37 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="statusCode_401_UNAUTHORIZED_division_path">
-                  </a> <!-- statusCode_401_UNAUTHORIZED_division_path -->
-                  <span class="method-name">statusCode_401_UNAUTHORIZED_division_path</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="statusCode_401_UNAUTHORIZED_multiply_path">
-                  </a> <!-- statusCode_401_UNAUTHORIZED_multiply_path -->
-                  <span class="method-name">statusCode_401_UNAUTHORIZED_multiply_path</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="statusCode_404_NOT_FOUND">
                   </a> <!-- statusCode_404_NOT_FOUND -->
                   <span class="method-name">statusCode_404_NOT_FOUND</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusCode_405_MethodNotAllowed">
+                  </a> <!-- statusCode_405_MethodNotAllowed -->
+                  <span class="method-name">statusCode_405_MethodNotAllowed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusCode_415_UnsupportedMediaType">
+                  </a> <!-- statusCode_415_UnsupportedMediaType -->
+                  <span class="method-name">statusCode_415_UnsupportedMediaType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusCode_500_InternalServerError">
+                  </a> <!-- statusCode_500_InternalServerError -->
+                  <span class="method-name">statusCode_500_InternalServerError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unionTest1_NonIntegersInLeftSet_400BadRequest">
+                  </a> <!-- unionTest1_NonIntegersInLeftSet_400BadRequest -->
+                  <span class="method-name">unionTest1_NonIntegersInLeftSet_400BadRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,9 +1025,14 @@
 &lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
   &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.automation.tests.UnionIntersectServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.AdditionServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.DivisionServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.MaxMinServicesTest&quot;/&gt;
       &lt;class name=&quot;com.automation.tests.PostAPITest&quot;/&gt;
       &lt;class name=&quot;com.automation.tests.APIIntegrationTest&quot;/&gt;
       &lt;class name=&quot;com.automation.tests.ErrorCodesTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.tests.MultiplyServiceTest&quot;/&gt;
       &lt;class name=&quot;com.automation.tests.GetAPITest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
@@ -275,7 +1047,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (4 classes)</span>
+                <span class="test-name">Command line test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -301,52 +1073,232 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(55);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'additionTest')
 data.setCell(0, 2, 'com.automation.tests.APIIntegrationTest')
-data.setCell(0, 3, 2313);
+data.setCell(0, 3, 1948);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'statusCode_401_UNAUTHORIZED_division_path')
-data.setCell(1, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(1, 3, 699);
+data.setCell(1, 1, 'additionTest2_OneNumberAsNull_400BadRequest')
+data.setCell(1, 2, 'com.automation.tests.AdditionServiceTest')
+data.setCell(1, 3, 105);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'divisionTest')
-data.setCell(2, 2, 'com.automation.tests.APIIntegrationTest')
-data.setCell(2, 3, 310);
+data.setCell(2, 1, 'divisionTest1_NonNumbers_400BadRequest')
+data.setCell(2, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(2, 3, 73);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'statusCode_401_UNAUTHORIZED_addition_path')
-data.setCell(3, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(3, 3, 301);
+data.setCell(3, 1, 'divisionTest7_DividendFloat_200Ok')
+data.setCell(3, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(3, 3, 56);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'multiplytest_400_Bad_Request')
-data.setCell(4, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(4, 3, 299);
+data.setCell(4, 1, 'multiplytest6_DecimalNumbers_200Ok')
+data.setCell(4, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(4, 3, 51);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'divisionTest_400_Bad_Request')
-data.setCell(5, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(5, 3, 296);
+data.setCell(5, 1, 'divisionTest6_DividendNegative_200Ok')
+data.setCell(5, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(5, 3, 49);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'multiplytest')
+data.setCell(6, 1, 'intersectionTest')
 data.setCell(6, 2, 'com.automation.tests.APIIntegrationTest')
-data.setCell(6, 3, 288);
+data.setCell(6, 3, 45);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'statusCode_404_NOT_FOUND')
-data.setCell(7, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(7, 3, 243);
+data.setCell(7, 1, 'multiplytest2_OneNumberAsNull_400BadRequest')
+data.setCell(7, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(7, 3, 45);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'additionTest_400_Bad_Request')
-data.setCell(8, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(8, 3, 228);
+data.setCell(8, 1, 'unionTest1_NonIntegersInLeftSet_400BadRequest')
+data.setCell(8, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(8, 3, 44);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'statusCode_401_UNAUTHORIZED_multiply_path')
-data.setCell(9, 2, 'com.automation.tests.ErrorCodesTest')
-data.setCell(9, 3, 227);
+data.setCell(9, 1, 'maxTest4_AllNegativeNumbersInSet_200Ok')
+data.setCell(9, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(9, 3, 44);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'unionTest')
+data.setCell(10, 2, 'com.automation.tests.APIIntegrationTest')
+data.setCell(10, 3, 43);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'multiplytest')
+data.setCell(11, 2, 'com.automation.tests.APIIntegrationTest')
+data.setCell(11, 3, 43);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'intersectionTest1_NonIntegersInLeftSet_400BadRequest')
+data.setCell(12, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(12, 3, 42);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'maxTest1_NonIntegersInSet_400BadRequest')
+data.setCell(13, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(13, 3, 42);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'multiplytest1_Non_Integers_400BadRequest')
+data.setCell(14, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(14, 3, 41);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'divisionTest3_DividendNull_400BadRequest')
+data.setCell(15, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(15, 3, 40);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'minTest')
+data.setCell(16, 2, 'com.automation.tests.APIIntegrationTest')
+data.setCell(16, 3, 40);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'statusCode_415_UnsupportedMediaType')
+data.setCell(17, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(17, 3, 40);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'divisionTest')
+data.setCell(18, 2, 'com.automation.tests.APIIntegrationTest')
+data.setCell(18, 3, 35);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'divisionTest4_DivisorSpecialCharacter_400BadRequest')
+data.setCell(19, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(19, 3, 34);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest')
+data.setCell(20, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(20, 3, 34);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'intersectionTest2_NonIntegersBothSets_400BadRequest')
+data.setCell(21, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(21, 3, 34);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'unionTest1_NonIntegersInLeftSet_400BadRequest')
+data.setCell(22, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(22, 3, 34);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'divisionTest2_DivisorNull_400BadRequest')
+data.setCell(23, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(23, 3, 33);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'additionTest4_NegativeNumbers_200Ok')
+data.setCell(24, 2, 'com.automation.tests.AdditionServiceTest')
+data.setCell(24, 3, 32);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest')
+data.setCell(25, 2, 'com.automation.tests.AdditionServiceTest')
+data.setCell(25, 3, 31);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'additionTest1_Non_Integers_400BadRequest')
+data.setCell(26, 2, 'com.automation.tests.AdditionServiceTest')
+data.setCell(26, 3, 31);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'divisionTest6_DivisorNegative_200Ok')
+data.setCell(27, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(27, 3, 31);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'divisionTest8_DivisorFloat_200Ok')
+data.setCell(28, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(28, 3, 31);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'maxTest')
+data.setCell(29, 2, 'com.automation.tests.APIIntegrationTest')
+data.setCell(29, 3, 30);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'maxTest5_OneNullInSet_200Ok')
+data.setCell(30, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(30, 3, 29);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'minTest1_NonIntegersInSet_400_BadRequest')
+data.setCell(31, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(31, 3, 29);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'unionTest2_NonIntegersInRightSet_400BadRequest')
+data.setCell(32, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(32, 3, 27);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'minTest2_SpecialCharactersInSet_400_BadRequest')
+data.setCell(33, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(33, 3, 27);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'maxTest3_NegativeNumbersInSet_200Ok')
+data.setCell(34, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(34, 3, 26);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'multiplytest5_OneNegativeInteger_200Ok')
+data.setCell(35, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(35, 3, 26);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'multiplytest4_BothNegativeNumbers_200Ok')
+data.setCell(36, 2, 'com.automation.tests.MultiplyServiceTest')
+data.setCell(36, 3, 24);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'intersectionTest3_NegativeNumbersInBothSets_200Ok')
+data.setCell(37, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(37, 3, 24);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'minTest3_NegativeNumbersInSet_200_Ok')
+data.setCell(38, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(38, 3, 24);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'additionTest5_OneNegativeOnePositiveNumber_200Ok')
+data.setCell(39, 2, 'com.automation.tests.AdditionServiceTest')
+data.setCell(39, 3, 23);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'minTest4_AllNegativeNumbersInSet_200_Ok')
+data.setCell(40, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(40, 3, 23);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'statusCode_404_NOT_FOUND')
+data.setCell(41, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(41, 3, 21);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'maxTest1_NonIntegersInSet_400BadRequest')
+data.setCell(42, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(42, 3, 21);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'statusCode_405_MethodNotAllowed')
+data.setCell(43, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(43, 3, 21);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'additionTest_400_Bad_Request_non_integer')
+data.setCell(44, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(44, 3, 21);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'intersectionTest4_NullsPresentInBothSets_200Ok')
+data.setCell(45, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(45, 3, 20);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'statusCode_500_InternalServerError')
+data.setCell(46, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(46, 3, 19);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'minTest5_OneNullInSet_200_Ok')
+data.setCell(47, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(47, 3, 19);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'divisionTest5_BothNegativeNumbers_200Ok')
+data.setCell(48, 2, 'com.automation.tests.DivisionServiceTest')
+data.setCell(48, 3, 17);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'unionTest3_NegativeNumbersInLeftSet_200Ok')
+data.setCell(49, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(49, 3, 17);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'unionTest4_NegativeNumbersInBothSets_200Ok')
+data.setCell(50, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(50, 3, 16);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'unionTest5_NullsInLeftSet_200Ok')
+data.setCell(51, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(51, 3, 14);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'statusCode_401_UNAUTHORIZED_addition_path')
+data.setCell(52, 2, 'com.automation.tests.ErrorCodesTest')
+data.setCell(52, 3, 13);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'maxTest2_SpecialCharactersInSet_400BadRequest')
+data.setCell(53, 2, 'com.automation.tests.MaxMinServicesTest')
+data.setCell(53, 3, 13);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'unionTest6_NullsInBothSets_200Ok')
+data.setCell(54, 2, 'com.automation.tests.UnionIntersectServiceTest')
+data.setCell(54, 3, 11);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -379,82 +1331,466 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">additionTest</span>
-                <span class="method-start">8 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2321 ms</span>
+                <span class="method-start">1959 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">divisionTest</span>
-                <span class="method-start">2322 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">multiplytest</span>
-                <span class="method-start">2633 ms</span>
+                <span class="method-start">1960 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2633 ms</span>
+                <span class="method-start">1996 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intersectionTest</span>
+                <span class="method-start">1996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest</span>
+                <span class="method-start">2043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest</span>
+                <span class="method-start">2074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2115 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest</span>
+                <span class="method-start">2115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest</span>
+                <span class="method-start">2159 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.DivisionServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest1_NonNumbers_400BadRequest</span>
+                <span class="method-start">2204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest2_DivisorNull_400BadRequest</span>
+                <span class="method-start">2278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest3_DividendNull_400BadRequest</span>
+                <span class="method-start">2313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest4_DivisorSpecialCharacter_400BadRequest</span>
+                <span class="method-start">2354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest5_BothNegativeNumbers_200Ok</span>
+                <span class="method-start">2389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest6_DividendNegative_200Ok</span>
+                <span class="method-start">2407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">divisionTest6_DivisorNegative_200Ok</span>
+                <span class="method-start">2457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">divisionTest7_DividendFloat_200Ok</span>
+                <span class="method-start">2489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">divisionTest8_DivisorFloat_200Ok</span>
+                <span class="method-start">2550 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.tests.ErrorCodesTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">2922 ms</span>
+                <span class="method-start">2584 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">statusCode_401_UNAUTHORIZED_addition_path</span>
-                <span class="method-start">2923 ms</span>
+                <span class="method-name">maxTest1_NonIntegersInSet_400BadRequest</span>
+                <span class="method-start">2584 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3224 ms</span>
+                <span class="method-start">2605 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">statusCode_401_UNAUTHORIZED_multiply_path</span>
-                <span class="method-start">3229 ms</span>
+                <span class="method-name">statusCode_500_InternalServerError</span>
+                <span class="method-start">2606 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3456 ms</span>
+                <span class="method-start">2626 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">statusCode_401_UNAUTHORIZED_division_path</span>
-                <span class="method-start">3457 ms</span>
+                <span class="method-name">unionTest1_NonIntegersInLeftSet_400BadRequest</span>
+                <span class="method-start">2626 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.MaxMinServicesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest1_NonIntegersInSet_400BadRequest</span>
+                <span class="method-start">2661 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4157 ms</span>
+                <span class="method-start">2704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest2_SpecialCharactersInSet_400BadRequest</span>
+                <span class="method-start">2704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest3_NegativeNumbersInSet_200Ok</span>
+                <span class="method-start">2717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest4_AllNegativeNumbersInSet_200Ok</span>
+                <span class="method-start">2744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">maxTest5_OneNullInSet_200Ok</span>
+                <span class="method-start">2790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest1_NonIntegersInSet_400_BadRequest</span>
+                <span class="method-start">2820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest2_SpecialCharactersInSet_400_BadRequest</span>
+                <span class="method-start">2850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest3_NegativeNumbersInSet_200_Ok</span>
+                <span class="method-start">2879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest4_AllNegativeNumbersInSet_200_Ok</span>
+                <span class="method-start">2904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">minTest5_OneNullInSet_200_Ok</span>
+                <span class="method-start">2928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.MultiplyServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest1_Non_Integers_400BadRequest</span>
+                <span class="method-start">2948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest2_OneNumberAsNull_400BadRequest</span>
+                <span class="method-start">2990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest</span>
+                <span class="method-start">3037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest4_BothNegativeNumbers_200Ok</span>
+                <span class="method-start">3072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiplytest5_OneNegativeInteger_200Ok</span>
+                <span class="method-start">3097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multiplytest6_DecimalNumbers_200Ok</span>
+                <span class="method-start">3124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.UnionIntersectServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intersectionTest1_NonIntegersInLeftSet_400BadRequest</span>
+                <span class="method-start">3183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intersectionTest2_NonIntegersBothSets_400BadRequest</span>
+                <span class="method-start">3227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intersectionTest3_NegativeNumbersInBothSets_200Ok</span>
+                <span class="method-start">3263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intersectionTest4_NullsPresentInBothSets_200Ok</span>
+                <span class="method-start">3288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest1_NonIntegersInLeftSet_400BadRequest</span>
+                <span class="method-start">3309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest2_NonIntegersInRightSet_400BadRequest</span>
+                <span class="method-start">3353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest3_NegativeNumbersInLeftSet_200Ok</span>
+                <span class="method-start">3380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest4_NegativeNumbersInBothSets_200Ok</span>
+                <span class="method-start">3398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest5_NullsInLeftSet_200Ok</span>
+                <span class="method-start">3415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unionTest6_NullsInBothSets_200Ok</span>
+                <span class="method-start">3430 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.AdditionServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">additionTest1_Non_Integers_400BadRequest</span>
+                <span class="method-start">3442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">additionTest2_OneNumberAsNull_400BadRequest</span>
+                <span class="method-start">3474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest</span>
+                <span class="method-start">3580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">additionTest4_NegativeNumbers_200Ok</span>
+                <span class="method-start">3611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">additionTest5_OneNegativeOnePositiveNumber_200Ok</span>
+                <span class="method-start">3643 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.tests.ErrorCodesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">statusCode_404_NOT_FOUND</span>
-                <span class="method-start">4157 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">additionTest_400_Bad_Request</span>
-                <span class="method-start">4401 ms</span>
+                <span class="method-start">3666 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4401 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">4629 ms</span>
+                <span class="method-start">3688 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">multiplytest_400_Bad_Request</span>
-                <span class="method-start">4630 ms</span>
+                <span class="method-name">additionTest_400_Bad_Request_non_integer</span>
+                <span class="method-start">3688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4929 ms</span>
+                <span class="method-start">3709 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">divisionTest_400_Bad_Request</span>
-                <span class="method-start">4930 ms</span>
+                <span class="method-name">statusCode_405_MethodNotAllowed</span>
+                <span class="method-start">3710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">statusCode_415_UnsupportedMediaType</span>
+                <span class="method-start">3732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">statusCode_401_UNAUTHORIZED_addition_path</span>
+                <span class="method-start">3773 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.ErrorCodesTesting">
+      <class name="com.automation.tests.MaxMinServicesTest">
         <methods>
-          <include name="statusCode_401_Unauthorized"/>
-          <include name="statusCode_500_InternalServerError"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.tests.ErrorCodesTesting -->
+      </class> <!-- com.automation.tests.MaxMinServicesTest -->
+      <class name="com.automation.tests.AdditionServiceTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.tests.AdditionServiceTest -->
+      <class name="com.automation.tests.DivisionServiceTest">
+        <methods>
+          <include name="divisionTest7_DividendFloat_200Ok"/>
+          <include name="divisionTest8_DivisorFloat_200Ok"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.tests.DivisionServiceTest -->
+      <class name="com.automation.tests.ErrorCodesTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.tests.ErrorCodesTest -->
+      <class name="com.automation.tests.MultiplyServiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="multiplytest6_DecimalNumbers_200Ok"/>
+        </methods>
+      </class> <!-- com.automation.tests.MultiplyServiceTest -->
+      <class name="com.automation.tests.APIIntegrationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.tests.APIIntegrationTest -->
+      <class name="com.automation.tests.UnionIntersectServiceTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.tests.UnionIntersectServiceTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

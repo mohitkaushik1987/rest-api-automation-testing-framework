@@ -13,6 +13,8 @@ public class TestBase {
 	public int RESPONSE_STATUS_CODE_401 = 401;
 	public int RESPONSE_STATUS_CODE_201 = 201;
 	public int RESPONSE_STATUS_CODE_404 = 404;
+	public int RESPONSE_STATUS_CODE_405 = 405; //Method Not Allowed
+	public int RESPONSE_STATUS_CODE_415 = 415; // Unsupported Media Type
 
 	public Properties prop;
 	

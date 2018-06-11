@@ -22,7 +22,7 @@ REST API - Test Automation Framework. The API tests have been divided into follo
 
 ## How to run the test project?
 
-This test framework is developed to run against math-service local deployemnt (port 8080). Please refer to the application.properties file under config to know more details.
+This test framework is developed to run against *math-service's local deployment (port 8080).* Please refer to the *application.properties* file under config to know more details.
 
  *Step 1 -  Run as Maven clean (Build Success)*
  

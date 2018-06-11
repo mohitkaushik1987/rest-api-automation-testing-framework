@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 55, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 7.004 sec <<< FAILURE!
-divisionTest7_DividendFloat_200Ok(com.automation.tests.DivisionServiceTest)  Time elapsed: 0.061 sec  <<< FAILURE!
+Tests run: 55, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.073 sec <<< FAILURE!
+divisionTest7_DividendFloat_200Ok(com.automation.tests.DivisionServiceTest)  Time elapsed: 0.038 sec  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -11,7 +11,7 @@ java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.assertEquals(Assert.java:380)
 	at com.automation.tests.DivisionServiceTest.divisionTest7_DividendFloat_200Ok(DivisionServiceTest.java:347)
 
-divisionTest8_DivisorFloat_200Ok(com.automation.tests.DivisionServiceTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+divisionTest8_DivisorFloat_200Ok(com.automation.tests.DivisionServiceTest)  Time elapsed: 0.053 sec  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -20,7 +20,7 @@ java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.assertEquals(Assert.java:380)
 	at com.automation.tests.DivisionServiceTest.divisionTest8_DivisorFloat_200Ok(DivisionServiceTest.java:388)
 
-multiplytest6_DecimalNumbers_200Ok(com.automation.tests.MultiplyServiceTest)  Time elapsed: 0.052 sec  <<< FAILURE!
+multiplytest6_DecimalNumbers_200Ok(com.automation.tests.MultiplyServiceTest)  Time elapsed: 0.041 sec  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="55" failures="3" name="TestSuite" time="3.703" errors="0" skipped="0">
+<testsuite tests="55" failures="3" name="TestSuite" time="3.441" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/mohitkaushik/Documents/workspace-sts-3.9.4.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf636596303694203195.tmp"/>
+    <property name="classworlds.conf" value="/Users/mohitkaushik/Documents/workspace-sts-3.9.4.RELEASE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5599047323511985276.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/mohitkaushik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,21 +62,21 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="additionTest" time="1.948"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="divisionTest" time="0.033"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="intersectionTest" time="0.046"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="maxTest" time="0.03"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="minTest" time="0.041"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="multiplytest" time="0.044"/>
-  <testcase classname="com.automation.tests.APIIntegrationTest" name="unionTest" time="0.042"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest1_NonNumbers_400BadRequest" time="0.065"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest2_DivisorNull_400BadRequest" time="0.033"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest3_DividendNull_400BadRequest" time="0.04"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest4_DivisorSpecialCharacter_400BadRequest" time="0.034"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest5_BothNegativeNumbers_200Ok" time="0.017"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest6_DividendNegative_200Ok" time="0.049"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest6_DivisorNegative_200Ok" time="0.031"/>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest7_DividendFloat_200Ok" time="0.061">
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="additionTest" time="1.832"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="divisionTest" time="0.063"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="intersectionTest" time="0.041"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="maxTest" time="0.028"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="minTest" time="0.051"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="multiplytest" time="0.041"/>
+  <testcase classname="com.automation.tests.APIIntegrationTest" name="unionTest" time="0.033"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest1_NonNumbers_400BadRequest" time="0.094"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest2_DivisorNull_400BadRequest" time="0.048"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest3_DividendNull_400BadRequest" time="0.02"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest4_DivisorSpecialCharacter_400BadRequest" time="0.033"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest5_BothNegativeNumbers_200Ok" time="0.013"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest6_DividendNegative_200Ok" time="0.064"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest6_DivisorNegative_200Ok" time="0.024"/>
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest7_DividendFloat_200Ok" time="0.038">
     <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -88,7 +88,7 @@
     <system-out>{&quot;dividend&quot;:&quot;4.5&quot;,&quot;divisor&quot;:&quot;2&quot;}
 </system-out>
   </testcase>
-  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest8_DivisorFloat_200Ok" time="0.032">
+  <testcase classname="com.automation.tests.DivisionServiceTest" name="divisionTest8_DivisorFloat_200Ok" time="0.053">
     <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -100,25 +100,25 @@
     <system-out>{&quot;dividend&quot;:&quot;5&quot;,&quot;divisor&quot;:&quot;2.5&quot;}
 </system-out>
   </testcase>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="maxTest1_NonIntegersInSet_400BadRequest" time="0.02"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_500_InternalServerError" time="0.019"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="unionTest1_NonIntegersInLeftSet_400BadRequest" time="0.034"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest1_NonIntegersInSet_400BadRequest" time="0.042"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest2_SpecialCharactersInSet_400BadRequest" time="0.012"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest3_NegativeNumbersInSet_200Ok" time="0.026"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest4_AllNegativeNumbersInSet_200Ok" time="0.043"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest5_OneNullInSet_200Ok" time="0.029"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest1_NonIntegersInSet_400_BadRequest" time="0.029"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest2_SpecialCharactersInSet_400_BadRequest" time="0.028"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest3_NegativeNumbersInSet_200_Ok" time="0.024"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest4_AllNegativeNumbersInSet_200_Ok" time="0.024"/>
-  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest5_OneNullInSet_200_Ok" time="0.019"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest1_Non_Integers_400BadRequest" time="0.041"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest2_OneNumberAsNull_400BadRequest" time="0.046"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest" time="0.034"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest4_BothNegativeNumbers_200Ok" time="0.024"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest5_OneNegativeInteger_200Ok" time="0.026"/>
-  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest6_DecimalNumbers_200Ok" time="0.052">
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="maxTest1_NonIntegersInSet_400BadRequest" time="0.027"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_500_InternalServerError" time="0.024"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="unionTest1_NonIntegersInLeftSet_400BadRequest" time="0.023"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest1_NonIntegersInSet_400BadRequest" time="0.026"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest2_SpecialCharactersInSet_400BadRequest" time="0.026"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest3_NegativeNumbersInSet_200Ok" time="0.022"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest4_AllNegativeNumbersInSet_200Ok" time="0.016"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="maxTest5_OneNullInSet_200Ok" time="0.015"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest1_NonIntegersInSet_400_BadRequest" time="0.02"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest2_SpecialCharactersInSet_400_BadRequest" time="0.016"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest3_NegativeNumbersInSet_200_Ok" time="0.032"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest4_AllNegativeNumbersInSet_200_Ok" time="0.029"/>
+  <testcase classname="com.automation.tests.MaxMinServicesTest" name="minTest5_OneNullInSet_200_Ok" time="0.014"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest1_Non_Integers_400BadRequest" time="0.04"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest2_OneNumberAsNull_400BadRequest" time="0.008"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest3_OneNumberAndOneSpecialCharacter_400BadRequest" time="0.018"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest4_BothNegativeNumbers_200Ok" time="0.013"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest5_OneNegativeInteger_200Ok" time="0.018"/>
+  <testcase classname="com.automation.tests.MultiplyServiceTest" name="multiplytest6_DecimalNumbers_200Ok" time="0.041">
     <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -130,24 +130,24 @@
     <system-out>Request::: {&quot;multiplicand&quot;:&quot;7.5&quot;,&quot;multiplier&quot;:&quot;2&quot;}
 </system-out>
   </testcase>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest1_NonIntegersInLeftSet_400BadRequest" time="0.041"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest2_NonIntegersBothSets_400BadRequest" time="0.032"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest3_NegativeNumbersInBothSets_200Ok" time="0.024"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest4_NullsPresentInBothSets_200Ok" time="0.02"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest1_NonIntegersInLeftSet_400BadRequest" time="0.044"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest1_NonIntegersInLeftSet_400BadRequest" time="0.011"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest2_NonIntegersBothSets_400BadRequest" time="0.023"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest3_NegativeNumbersInBothSets_200Ok" time="0.06"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="intersectionTest4_NullsPresentInBothSets_200Ok" time="0.023"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest1_NonIntegersInLeftSet_400BadRequest" time="0.028"/>
   <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest2_NonIntegersInRightSet_400BadRequest" time="0.027"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest3_NegativeNumbersInLeftSet_200Ok" time="0.016"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest4_NegativeNumbersInBothSets_200Ok" time="0.016"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest5_NullsInLeftSet_200Ok" time="0.015"/>
-  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest6_NullsInBothSets_200Ok" time="0.012"/>
-  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest1_Non_Integers_400BadRequest" time="0.032"/>
-  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest2_OneNumberAsNull_400BadRequest" time="0.104"/>
-  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest" time="0.029"/>
-  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest4_NegativeNumbers_200Ok" time="0.036"/>
-  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest5_OneNegativeOnePositiveNumber_200Ok" time="0.019"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_404_NOT_FOUND" time="0.022"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="additionTest_400_Bad_Request_non_integer" time="0.024"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest3_NegativeNumbersInLeftSet_200Ok" time="0.027"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest4_NegativeNumbersInBothSets_200Ok" time="0.033"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest5_NullsInLeftSet_200Ok" time="0.019"/>
+  <testcase classname="com.automation.tests.UnionIntersectServiceTest" name="unionTest6_NullsInBothSets_200Ok" time="0.015"/>
+  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest1_Non_Integers_400BadRequest" time="0.011"/>
+  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest2_OneNumberAsNull_400BadRequest" time="0.011"/>
+  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest3_OneNumberAndOneSpecialCharacter_400BadRequest" time="0.031"/>
+  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest4_NegativeNumbers_200Ok" time="0.082"/>
+  <testcase classname="com.automation.tests.AdditionServiceTest" name="additionTest5_OneNegativeOnePositiveNumber_200Ok" time="0.013"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_404_NOT_FOUND" time="0.016"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="additionTest_400_Bad_Request_non_integer" time="0.038"/>
   <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_405_MethodNotAllowed" time="0.022"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_415_UnsupportedMediaType" time="0.041"/>
-  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_401_UNAUTHORIZED_addition_path" time="0.009"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_415_UnsupportedMediaType" time="0.024"/>
+  <testcase classname="com.automation.tests.ErrorCodesTest" name="statusCode_401_UNAUTHORIZED_addition_path" time="0.023"/>
 </testsuite>

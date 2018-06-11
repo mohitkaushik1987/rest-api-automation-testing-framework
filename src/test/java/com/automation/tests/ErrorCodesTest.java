@@ -124,7 +124,7 @@ public class ErrorCodesTest extends TestBase {
 		AddData addData = new AddData("a", "5t");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\AddData.json"), addData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\AddData.json"), addData);
 
 		// object to json in string
 		String addDataJsonString = mapper.writeValueAsString(addData);
@@ -155,7 +155,7 @@ public class ErrorCodesTest extends TestBase {
 		AddData addData = new AddData("a", "4");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\AddData.json"), addData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\AddData.json"), addData);
 
 		// object to json in string
 		String addDataJsonString = mapper.writeValueAsString(addData);
@@ -191,7 +191,7 @@ public class ErrorCodesTest extends TestBase {
 		MaxMinData maxData = new MaxMinData(numbers);
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\maxData.json"), maxData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\maxData.json"), maxData);
 
 		// object to json in string
 		String maxDataJsonString = mapper.writeValueAsString(maxData);
@@ -237,7 +237,7 @@ public class ErrorCodesTest extends TestBase {
 		UnionIntersect unionData = new UnionIntersect(left, right);
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\unionData.json"), unionData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\unionData.json"), unionData);
 
 		// object to json in string
 		String unionDataJsonString = mapper.writeValueAsString(unionData);
@@ -290,7 +290,7 @@ public class ErrorCodesTest extends TestBase {
 		AddData addData = new AddData("3", "4");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\AddData.json"), addData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\AddData.json"), addData);
 
 		// object to json in string
 		String addDataJsonString = mapper.writeValueAsString(addData);
@@ -326,7 +326,7 @@ public class ErrorCodesTest extends TestBase {
 		AddData addData = new AddData("7", "-2");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\AddData.json"), addData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\AddData.json"), addData);
 
 		// object to json in string
 		String addDataJsonString = mapper.writeValueAsString(addData);

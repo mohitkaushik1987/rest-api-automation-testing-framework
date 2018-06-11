@@ -94,7 +94,7 @@ public class APIIntegrationTest extends TestBase {
 		AddData addData = new AddData("776","10");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\AddData.json"), addData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\AddData.json"), addData);
 
 		// object to json in string
 		String addDataJsonString = mapper.writeValueAsString(addData);
@@ -136,7 +136,7 @@ public class APIIntegrationTest extends TestBase {
 		MultiplyData multiplyData = new MultiplyData("10", "776");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\MultiplicationData.json"), multiplyData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\MultiplicationData.json"), multiplyData);
 
 		// object to json in string
 		String multDataJsonString = mapper.writeValueAsString(multiplyData);
@@ -177,7 +177,7 @@ public class APIIntegrationTest extends TestBase {
 		DivisionData divData = new DivisionData("776", "10");
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\qa\\data\\DivisionData.json"), divData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\DivisionData.json"), divData);
 
 		// object to json in string
 		String divDataJsonString = mapper.writeValueAsString(divData);
@@ -227,7 +227,7 @@ public class APIIntegrationTest extends TestBase {
 		MaxMinData maxData = new MaxMinData(numbers) ;
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\maxData.json"), maxData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\maxData.json"), maxData);
 
 		// object to json in string
 		String maxDataJsonString = mapper.writeValueAsString(maxData);
@@ -278,7 +278,7 @@ public class APIIntegrationTest extends TestBase {
 		MaxMinData minData = new MaxMinData(numbers) ;
 
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\minData.json"), minData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\minData.json"), minData);
 
 		// object to json in string
 		String minDataJsonString = mapper.writeValueAsString(minData);
@@ -334,7 +334,7 @@ public class APIIntegrationTest extends TestBase {
 		UnionIntersect unionData = new UnionIntersect(left, right) ;
 		
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\unionData.json"), unionData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\unionData.json"), unionData);
 
 		// object to json in string
 		String unionDataJsonString = mapper.writeValueAsString(unionData);
@@ -401,7 +401,7 @@ public class APIIntegrationTest extends TestBase {
 		UnionIntersect intersectionData = new UnionIntersect(left, right) ;
 		
 		// object to json file
-		mapper.writeValue(new File("src\\main\\java\\com\\auto\\data\\intersectionData.json"), intersectionData);
+		mapper.writeValue(new File("src\\main\\java\\com\\automation\\data\\intersectionData.json"), intersectionData);
 
 		// object to json in string
 		String intersectionDataJsonString = mapper.writeValueAsString(intersectionData);

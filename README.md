@@ -1,9 +1,10 @@
 # math-service: rest-api-automation-testing-framework
 
 **Service Name: math-service:**
+
 **REST API - Test Automation Framework. The API tests have been divided into following categories:**
 
-	-1. APIIntegrationTests (Generic Positive testing against individual endpoints-  running against math-		service local deployment on port 8080)
+	-1. APIIntegrationTests (Generic Positive testing against individual endpoints-  running against math-service local deployment on port 8080)
 
 	-2. ErrorCodesTests
 	
